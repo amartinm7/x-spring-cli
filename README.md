@@ -22,3 +22,6 @@ say-hello createService com.test.YourService
 - use the commander lib to create the command options
 - use the npm link to create a symbolic link stored in the /usr/local/bin/say-hello.
 Everytime you run 'say-hello' you executing the cli.
+
+
+![X-Spring-Cli](./_media/middy.png)
