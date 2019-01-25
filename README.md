@@ -1,4 +1,4 @@
-<img src='./_media/node-js.png' style='width:50%' />
+<img src='./_media/node-js.png' style='width:25%' />
 
 # X-Spring-Cli
 
