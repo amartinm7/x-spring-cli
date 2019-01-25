@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "say-hello": "bin/x-spring-cli.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "xspring": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "say-bye": "./node_modules/.bin/gulp compile"
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,17 @@
   "bugs": {
     "url": "https://github.com/amartinm7/x-spring-cli/issues"
   },
-  "homepage": "https://github.com/amartinm7/x-spring-cli#readme"
+  "homepage": "https://github.com/amartinm7/x-spring-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "shelljs": "^0.8.3",
+    "stream-replace": "^1.0.0",
+    "yargs": "^12.0.5"
+  },
+  "devDependencies": {
+    "lodash.camelcase": "^4.3.0",
+    "lodash.intersection": "^4.4.0",
+    "lodash.isempty": "^4.4.0"
+  }
 }
