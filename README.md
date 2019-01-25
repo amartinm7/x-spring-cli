@@ -1,4 +1,4 @@
-![X-Spring-Cli](./_media/middy.png)
+![X-Spring-Cli](./_media/nodejs.png)
 
 
 # X-Spring-Cli
