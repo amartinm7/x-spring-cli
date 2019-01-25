@@ -1,5 +1,4 @@
-![X-Spring-Cli](./_media/nodejs.png)
-
+<img src='./_media/nodejs.png' style=width:200>
 
 # X-Spring-Cli
 
