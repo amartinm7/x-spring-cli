@@ -1,6 +1,6 @@
 package {{packageName}};
 
-import {{packageName}}.application.{{className}}Service;
+import {{packageName}}.{{className}}Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +14,7 @@ public class {{className}}Controller {
 
 private static final Logger logger = LoggerFactory.getLogger({{className}}Controller.class);
 
-    private {{className}}Service {{className}}Service;
+    private {{className}}Service {{attributeName}}Service;
 
     public {{className}}Controller (@Autowired {{className}}Service {{attributeName}}Service){
         this.{{attributeName}}Service = {{attributeName}}Service;
